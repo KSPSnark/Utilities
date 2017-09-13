@@ -1,0 +1,7 @@
+echo Creating release file structure
+mkdir -p GameData/GliderStats
+cp ../changelog.txt GameData/GliderStats
+cp ../src/bin/Release/GliderStats.dll GameData/GliderStats
+cp ../../LICENSE GameData/GliderStats
+cp ../README.md GameData/GliderStats
+echo Done.
